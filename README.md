@@ -7,6 +7,8 @@ I completed the lab two ways to compare a standard offline tool against a browse
 
 Method 1: John the Ripper + Johnny (GUI)
 
+![](JohnnyS.png)
+
 Tools: John the Ripper (jumbo build) + Johnny, its GUI front-end.
 
 Installed JTR and Johnny on Windows, and pointed Johnny at john.exe under Settings.
@@ -17,6 +19,8 @@ Clicked Start new attack. Johnny handed the hash to john.exe, which ran a dictio
 Johnny GUI — password cracked, 100% (1/1 cracked)
 
 Result: password1 — confirmed by entering it to unlock the PDF.
+
+![](networkS.png)
 
 Method 2: Networkwalks Hash Calculator + Password Cracker (browser-only)
 
