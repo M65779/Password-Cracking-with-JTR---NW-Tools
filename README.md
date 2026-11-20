@@ -20,8 +20,6 @@ Johnny GUI — password cracked, 100% (1/1 cracked)
 
 Result: password1 — confirmed by entering it to unlock the PDF.
 
-![](networkS.png)
-
 Method 2: Networkwalks Hash Calculator + Password Cracker (browser-only)
 
 Tools: Networkwalks' free Hash Calculator and Password Cracker — both run entirely client-side, no install or file upload required.
@@ -33,6 +31,8 @@ Watched it iterate candidates (service, canada, hockey, killer, george, asdfgh, 
 Networkwalks Password Cracker — dictionary attack in progress, match found
 
 Result: same password, password1 — confirmed again by unlocking the PDF.
+
+![](networkS.png)
 
 Takeaways
 Both methods converge on the same core mechanic: extract the hash → dictionary attack → match. John the Ripper is the industry-standard offline tool; the Networkwalks web tools replicate the same logic for teaching purposes.
